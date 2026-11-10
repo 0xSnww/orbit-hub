@@ -1,0 +1,17 @@
+{
+  "name": "Abyss",
+  "author": "Orbit",
+  "accent": "#2EC4B6",
+  "colors": {
+    "bg": "#0A1216",
+    "rail": "#071014",
+    "panel": "#0E1A1F",
+    "card": "#132228",
+    "card_hover": "#192C33",
+    "border": "#1E333B",
+    "hairline": "#172A31",
+    "text": "#E6F1F3",
+    "muted": "#93AEB5",
+    "faint": "#5F7B83"
+  }
+}

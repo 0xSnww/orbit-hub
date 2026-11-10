@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "serial": 1,
+  "items": [
+    {
+      "id": "abyss",
+      "kind": "theme",
+      "name": "Abyss",
+      "author": "Orbit",
+      "description": "Deep sea blues with a teal accent.",
+      "tags": [
+        "dark",
+        "blue"
+      ],
+      "swatch": [
+        "#0a1216",
+        "#132228",
+        "#e6f1f3",
+        "#2ec4b6"
+      ],
+      "file": "themes/abyss.json",
+      "size": 327,
+      "sha256": "4fd2f6943210e20447f5a4dcd0452acd81be0e4f9cb0c2850aa2d432154440e3"
+    },
+    {
+      "id": "synthwave",
+      "kind": "theme",
+      "name": "Synthwave",
+      "author": "Orbit",
+      "description": "Night purple with a hot pink accent.",
+      "tags": [
+        "dark",
+        "purple"
+      ],
+      "swatch": [
+        "#120b1a",
+        "#1f152e",
+        "#f3e9fa",
+        "#ff4fa3"
+      ],
+      "file": "themes/synthwave.json",
+      "size": 331,
+      "sha256": "1179c2faa57fa5dc665f82c6ecd4c70d2856c710c675c018557bdbf0435fa399"
+    },
+    {
+      "id": "graphite",
+      "kind": "theme",
+      "name": "Graphite",
+      "author": "Orbit",
+      "description": "Plain greys with an amber accent.",
+      "tags": [
+        "dark",
+        "neutral"
+      ],
+      "swatch": [
+        "#111111",
+        "#1d1d1d",
+        "#ededed",
+        "#f5a524"
+      ],
+      "file": "themes/graphite.json",
+      "size": 330,
+      "sha256": "ea36c85d87a59eee129e3cf5bb475a580fe1516c55e88454af43c61ba83da805"
+    },
+    {
+      "id": "cinema",
+      "kind": "setup",
+      "name": "Cinema",
+      "author": "Orbit",
+      "description": "Synthwave colours, an aurora behind every page and fewer chart rows.",
+      "file": "setups/cinema.orbit",
+      "size": 1123,
+      "sha256": "278c9d2abdf8cae1bc679b95c03fb49fcef1a218470d2f2ea40db058037d32bf"
+    },
+    {
+      "id": "minimal",
+      "kind": "setup",
+      "name": "Minimal",
+      "author": "Orbit",
+      "description": "Graphite colours, no carousel, and only what you play on Home.",
+      "file": "setups/minimal.orbit",
+      "size": 1127,
+      "sha256": "5e556a780150cc3537a747087e57726925a1a17db287e675f6a59524a43958ca"
+    },
+    {
+      "id": "dot-cursor",
+      "kind": "skin",
+      "name": "Dot cursor",
+      "author": "Orbit",
+      "description": "A small ring cursor instead of Roblox's arrow.",
+      "version": "1.0",
+      "file": "skins/dot-cursor.orbitskin",
+      "size": 2550,
+      "sha256": "054fb6f34085f5e441e735ca1d313e866a3efda168c17eda87ad5d2bff14f20b"
+    },
+    {
+      "id": "break-reminder",
+      "kind": "plugin",
+      "name": "Break reminder",
+      "author": "Orbit",
+      "description": "A nudge after every hour in the same game.",
+      "version": "1.0",
+      "permissions": [
+        "notify",
+        "games"
+      ],
+      "file": "plugins/break-reminder/main.luau",
+      "size": 534,
+      "sha256": "a364f8416f3b60e423cabf31f7f903eed70696f222ce0fce7941d882a684867b"
+    },
+    {
+      "id": "session-log",
+      "kind": "plugin",
+      "name": "Session log",
+      "author": "Orbit",
+      "description": "Your last five sessions and how long they lasted, on Home.",
+      "version": "1.0",
+      "permissions": [
+        "widget",
+        "commands",
+        "games"
+      ],
+      "file": "plugins/session-log/main.luau",
+      "size": 910,
+      "sha256": "2b9e4bd1ea41303b9da87bc8ed20840757c1f39255a06d08f9f2b676f59d29ae"
+    },
+    {
+      "id": "friend-radar",
+      "kind": "plugin",
+      "name": "Friend radar",
+      "author": "Orbit",
+      "description": "Tells you when a friend comes online straight into a game. Mute it from Ctrl+K.",
+      "version": "1.0",
+      "permissions": [
+        "notify",
+        "commands",
+        "friends"
+      ],
+      "file": "plugins/friend-radar/main.luau",
+      "size": 484,
+      "sha256": "f3caceaec6255886cbd27cd2beb47c068ed7087b1d44c3554b6072c63325eabc"
+    }
+  ]
+}

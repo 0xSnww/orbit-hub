@@ -1,0 +1,64 @@
+{
+  "name": "Minimal",
+  "theme": {
+    "name": "Graphite",
+    "author": "Orbit",
+    "accent": "#F5A524",
+    "colors": {
+      "bg": "#111111",
+      "rail": "#0C0C0C",
+      "panel": "#171717",
+      "card": "#1D1D1D",
+      "card_hover": "#252525",
+      "border": "#2A2A2A",
+      "hairline": "#222222",
+      "text": "#EDEDED",
+      "muted": "#A0A0A0",
+      "faint": "#6B6B6B"
+    }
+  },
+  "accent": "#F5A524",
+  "backdrop": {
+    "kind": "none",
+    "dim": 0.6,
+    "everywhere": false
+  },
+  "home": {
+    "hero": false,
+    "blocks": [
+      {
+        "kind": "now_playing",
+        "shown": true
+      },
+      {
+        "kind": "jump_back_in",
+        "shown": true
+      },
+      {
+        "kind": "week",
+        "shown": false
+      },
+      {
+        "kind": "friends",
+        "shown": false
+      },
+      {
+        "kind": "pinned_servers",
+        "shown": false
+      },
+      {
+        "kind": "favorites",
+        "shown": true
+      },
+      {
+        "kind": "charts",
+        "shown": false
+      },
+      {
+        "kind": "plugins",
+        "shown": false
+      }
+    ],
+    "chart_rows": 2
+  }
+}

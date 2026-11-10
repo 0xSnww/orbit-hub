@@ -1,0 +1,104 @@
+[
+  {
+    "id": "abyss",
+    "kind": "theme",
+    "name": "Abyss",
+    "author": "Orbit",
+    "description": "Deep sea blues with a teal accent.",
+    "tags": [
+      "dark",
+      "blue"
+    ],
+    "file": "themes/abyss.json"
+  },
+  {
+    "id": "synthwave",
+    "kind": "theme",
+    "name": "Synthwave",
+    "author": "Orbit",
+    "description": "Night purple with a hot pink accent.",
+    "tags": [
+      "dark",
+      "purple"
+    ],
+    "file": "themes/synthwave.json"
+  },
+  {
+    "id": "graphite",
+    "kind": "theme",
+    "name": "Graphite",
+    "author": "Orbit",
+    "description": "Plain greys with an amber accent.",
+    "tags": [
+      "dark",
+      "neutral"
+    ],
+    "file": "themes/graphite.json"
+  },
+  {
+    "id": "cinema",
+    "kind": "setup",
+    "name": "Cinema",
+    "author": "Orbit",
+    "description": "Synthwave colours, an aurora behind every page and fewer chart rows.",
+    "file": "setups/cinema.orbit"
+  },
+  {
+    "id": "minimal",
+    "kind": "setup",
+    "name": "Minimal",
+    "author": "Orbit",
+    "description": "Graphite colours, no carousel, and only what you play on Home.",
+    "file": "setups/minimal.orbit"
+  },
+  {
+    "id": "dot-cursor",
+    "kind": "skin",
+    "name": "Dot cursor",
+    "author": "Orbit",
+    "description": "A small ring cursor instead of Roblox's arrow.",
+    "version": "1.0",
+    "file": "skins/dot-cursor.orbitskin"
+  },
+  {
+    "id": "break-reminder",
+    "kind": "plugin",
+    "name": "Break reminder",
+    "author": "Orbit",
+    "description": "A nudge after every hour in the same game.",
+    "version": "1.0",
+    "permissions": [
+      "notify",
+      "games"
+    ],
+    "file": "plugins/break-reminder/main.luau"
+  },
+  {
+    "id": "session-log",
+    "kind": "plugin",
+    "name": "Session log",
+    "author": "Orbit",
+    "description": "Your last five sessions and how long they lasted, on Home.",
+    "version": "1.0",
+    "permissions": [
+      "widget",
+      "commands",
+      "games"
+    ],
+    "file": "plugins/session-log/main.luau"
+  },
+  {
+    "id": "friend-radar",
+    "kind": "plugin",
+    "name": "Friend radar",
+    "author": "Orbit",
+    "description": "Tells you when a friend comes online straight into a game. Mute it from Ctrl+K.",
+    "version": "1.0",
+    "permissions": [
+      "notify",
+      "commands",
+      "friends"
+    ],
+    "file": "plugins/friend-radar/main.luau"
+  }
+]

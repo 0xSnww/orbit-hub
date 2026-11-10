@@ -1,0 +1,64 @@
+{
+  "name": "Cinema",
+  "theme": {
+    "name": "Synthwave",
+    "author": "Orbit",
+    "accent": "#FF4FA3",
+    "colors": {
+      "bg": "#120B1A",
+      "rail": "#0D0814",
+      "panel": "#181024",
+      "card": "#1F152E",
+      "card_hover": "#281B3A",
+      "border": "#2E2142",
+      "hairline": "#241A35",
+      "text": "#F3E9FA",
+      "muted": "#B39CC4",
+      "faint": "#7C6890"
+    }
+  },
+  "accent": "#FF4FA3",
+  "backdrop": {
+    "kind": "aurora",
+    "dim": 0.55,
+    "everywhere": true
+  },
+  "home": {
+    "hero": true,
+    "blocks": [
+      {
+        "kind": "now_playing",
+        "shown": true
+      },
+      {
+        "kind": "jump_back_in",
+        "shown": true
+      },
+      {
+        "kind": "week",
+        "shown": true
+      },
+      {
+        "kind": "friends",
+        "shown": true
+      },
+      {
+        "kind": "pinned_servers",
+        "shown": true
+      },
+      {
+        "kind": "favorites",
+        "shown": true
+      },
+      {
+        "kind": "charts",
+        "shown": true
+      },
+      {
+        "kind": "plugins",
+        "shown": true
+      }
+    ],
+    "chart_rows": 3
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Synthwave",
+  "author": "Orbit",
+  "accent": "#FF4FA3",
+  "colors": {
+    "bg": "#120B1A",
+    "rail": "#0D0814",
+    "panel": "#181024",
+    "card": "#1F152E",
+    "card_hover": "#281B3A",
+    "border": "#2E2142",
+    "hairline": "#241A35",
+    "text": "#F3E9FA",
+    "muted": "#B39CC4",
+    "faint": "#7C6890"
+  }
+}
